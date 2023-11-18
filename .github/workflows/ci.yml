@@ -6,7 +6,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: "* * * * *"
+    - cron: "10 10-20 * * *"
 
 #解决方案
 permissions:

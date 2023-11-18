@@ -8,6 +8,10 @@ on:
   schedule:
     - cron: "*/6 * * * *"
 
+#解决方案
+permissions:
+  contents: write
+
 jobs:
   autogreen:
     runs-on: ubuntu-latest
